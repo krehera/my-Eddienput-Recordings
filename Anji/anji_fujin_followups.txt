@@ -1,0 +1,37 @@
+configs\gg_strive.json
+# to be used at point-blank range
+8 W44
+S W18
+H W20
+startmix
+option
+# instant low
+	2 3 6+H W24
+	S
+option
+# instant high
+	2 3 6+H W24
+	H
+option
+# instant air-to-ground
+	2 3 6+H W24
+	P
+option
+# instant hop into ground throw
+	2 3 6+H W24
+	K W42
+	[6]+[D] W3 ]6[+]D[
+option 1000
+# 1-frame gap low
+	2 3 6+H W35
+	S
+option
+# maximally delayed low
+	2 3 6+H W59
+	S
+option
+# maximally delayed air-to-ground
+	2 3 6+H W59
+	P
+endmix
+[1] W60 ]1[
