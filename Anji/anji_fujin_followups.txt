@@ -21,7 +21,7 @@ option
 	2 3 6+H W24
 	K W42
 	[6]+[D] W3 ]6[+]D[
-option 1000
+option
 # 1-frame gap low
 	2 3 6+H W35
 	S
