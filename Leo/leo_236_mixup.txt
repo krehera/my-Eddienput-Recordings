@@ -1,0 +1,20 @@
+configs\gg_strive.json
+8 W40
+S W26
+[H] W2
+]H[ W20
+startmix
+option
+	2 3 6+S
+	[1] W120 ]1[
+option
+	2 3 6+H
+	W50
+	6 5 6
+option
+	[S] W2
+	]S[ W26
+	2 3 6+H
+	W50
+	6 5 6
+endmix
