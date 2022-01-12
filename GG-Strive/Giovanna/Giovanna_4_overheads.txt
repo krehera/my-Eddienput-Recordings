@@ -1,0 +1,22 @@
+configs\gg_strive.json
+# to be used at point-blank range
+# while YOU are cornered by Giovanna
+# WARNING: this is configured for Potemkin's height. You may need to change
+9 W24
+D W30
+9 W5
+H W10
+2 3 6 2 3 6+H
+W10
+# spam backdash
+4+F W3
+4+F W3
+4+F W3
+4+F W3
+4+F W3
+4+F W3
+4+F W3
+4+F W3
+4+F W3
+4+F W3
+4+F W3
