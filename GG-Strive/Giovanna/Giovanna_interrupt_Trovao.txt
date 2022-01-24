@@ -1,0 +1,25 @@
+configs\gg_strive.json
+# Learn to react to Trovao and interrupt it.
+# a Sepultra followup will either be a true blockstring or a tight frame trap
+# Sepultra is -4 on block. Your character may need to IB it in order to get a throw as a punish.
+# 6p is generally great to interrupt Trovao.
+# If you want to practice an OS to IB true blockstring Sepultra while also interrupting Trovao,
+# I recommend changing the weights to 50-50-0.
+
+8 W44
+F W5
+2+S W20
+# the above Wait can be 19-33 frames
+startmix
+option 50
+# Trovao
+	2 3 6+K W64
+option 25
+# instant Sepultra
+	2 1 4+K W51
+option 25
+# delayed Sepultra for a tight frame trap
+	W14
+	2 1 4+K W51
+endmix
+1 W60
