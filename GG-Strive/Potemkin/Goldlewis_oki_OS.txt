@@ -1,0 +1,33 @@
+configs\gg_strive.json
+# Anti-Goldlewis oki OS for Potemkin Proof of Concept
+# This beats jumping, backdashing, (some) mashing, wakeup super.
+# Goal: input 6P early in 5P's hitstop to buffer it,
+#    and input 2D after 5P finishes whiffing to beat backdash.
+# Humans will want to confirm 5P>6P into 623H or 2D into 236P
+# (but this script cannot tell which normal hits).
+
+# Use this script with Potemkin at point-blank to Goldlewis.
+# Goldlewis should be set to block after first attack
+# and Counterhit options as Random, with 1) Neutral 2) jump 3) backdash.
+
+# first, get the knockdown
+# sweep then hammerfall brake to point-blank range
+2+D
+[4] W30
+6+H
+W5
+P
+
+# 5P does not NEED to be perfectly meaty for this to work,
+# but it needs to be somewhat meaty to beat reversal super.
+W54
+5+P
+# chain into 6P (does not come out if 5P whiffs)
+W1
+[6] W7
+6+P
+# OS 2D
+[6] W3 ]6[
+2+D
+[1]
+W180 5
