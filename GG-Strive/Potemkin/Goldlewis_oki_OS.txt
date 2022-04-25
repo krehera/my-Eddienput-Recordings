@@ -1,6 +1,8 @@
 configs\gg_strive.json
+# DSBro made a great video on this: https://www.youtube.com/watch?v=WEW8uNYijvE
 # Anti-Goldlewis oki OS for Potemkin Proof of Concept
-# This beats jumping, backdashing, (some) mashing, wakeup super.
+# This beats jumping, backdashing, standing mashing, wakeup super.
+# crouch-masing will punish the 5P.
 # Goal: input 6P early in 5P's hitstop to buffer it,
 #    and input 2D after 5P finishes whiffing to beat backdash.
 # Humans will want to confirm 5P>6P into 623H or 2D into 236P
