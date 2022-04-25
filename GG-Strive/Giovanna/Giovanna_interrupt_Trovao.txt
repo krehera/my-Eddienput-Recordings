@@ -4,12 +4,22 @@ configs\gg_strive.json
 # Sepultra is -4 on block. Your character may need to IB it in order to get a throw as a punish.
 # 6p is generally great to interrupt Trovao.
 # If you want to practice an OS to IB true blockstring Sepultra while also interrupting Trovao,
-# I recommend changing the weights to 50-50-0.
+# I recommend changing the weights on the second mix to 50-50-0.
 
 8 W44
 F W5
 2+S W20
 # the above Wait can be 19-33 frames
+startmix
+option 50
+	W14
+	H W20
+option 50
+# intentionally do nothing
+# just do right from 2S to special
+	5
+endmix
+
 startmix
 option 50
 # Trovao
@@ -22,4 +32,4 @@ option 25
 	W14
 	2 1 4+K W51
 endmix
-1 W60
+[1] W30 ]1[
